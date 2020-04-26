@@ -1,4 +1,4 @@
-# STM3 PGM Memory Header
+# STM32 PGM Memory Header
 ## Overview
 Arduino Amtel AVR architecture microcontrollers use the PGM library <pgmspace.h> to access flash memory. A large number of Arduino libraries depend on this library. This library is generally not distributed with other Microcontroller architectures such as STMicroelectronics. See this [Wikipedia](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) link for detailed on non Amtel AVR Arduino supported Microcontroller architectures.
 ## Installation

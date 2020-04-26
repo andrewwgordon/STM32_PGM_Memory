@@ -1,6 +1,6 @@
 # STM32 PGM Memory Header
 ## Overview
-Arduino Amtel AVR architecture microcontrollers use the PGM library <pgmspace.h> to access flash memory. A large number of Arduino libraries depend on this library. This library is generally not distributed with other Microcontroller architectures such as STMicroelectronics. See this [Wikipedia](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) link for detailed on non Amtel AVR Arduino supported Microcontroller architectures.
+Arduino Atmel AVR architecture microcontrollers use the PGM library <pgmspace.h> to access flash memory. A large number of Arduino libraries depend on this library. This library is generally not distributed with other Microcontroller architectures such as STMicroelectronics. See this [Wikipedia](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) link for detailed on non Atmel AVR Arduino supported Microcontroller architectures.
 ## Installation
 Deploy pgmspace.h to your Microcontroller library. Typically in a directory structure ./arduno/packages/$Board Manufacturer$/hardware/$Microcontroller Architecture$/$Version$/cores/arduino/.
 ## Usage

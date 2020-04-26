@@ -13,5 +13,5 @@ Most Arduino libraries typically have an architecture check in their header file
 #endif
 ```
 If this is not the case with a particular library, then you have an option of revising a variant of the library or importing <pgmspace.h> in your main code.
-### Tests
+## Tests
 This header file has only been tested on a STM32407. Though the approach is generic enough for most non Amtel AVR architectures.
